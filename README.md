@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Find the correct documentation.
+Understand the clock and anti-clock rotation was tough.
 
 ## License
 
