@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C43C9871DDA526800DA43EB /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C43C9861DDA526800DA43EB /* DraggableImageView.xib */; };
+		0C43C98A1DDA5E3B00DA43EB /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C43C9891DDA5E3B00DA43EB /* DraggableImageView.swift */; };
 		0C52E6C91DD4EB900086F46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52E6C81DD4EB900086F46F /* AppDelegate.swift */; };
 		0C52E6CE1DD4EB900086F46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C52E6CC1DD4EB900086F46F /* Main.storyboard */; };
 		0C52E6D01DD4EB900086F46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C52E6CF1DD4EB900086F46F /* Assets.xcassets */; };
 		0C52E6D31DD4EB900086F46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C52E6D11DD4EB900086F46F /* LaunchScreen.storyboard */; };
 		0C52E6DC1DD4EC050086F46F /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52E6DB1DD4EC050086F46F /* CardsViewController.swift */; };
+		0CC67AB31DDAB7FC00FF98CB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC67AB21DDAB7FC00FF98CB /* ProfileViewController.swift */; };
+		0CC67AB51DDABD2900FF98CB /* ProfileImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC67AB41DDABD2900FF98CB /* ProfileImageView.xib */; };
+		0CC67AB71DDABE1600FF98CB /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC67AB61DDABE1600FF98CB /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C43C9861DDA526800DA43EB /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		0C43C9891DDA5E3B00DA43EB /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 		0C52E6C51DD4EB900086F46F /* Lab5_Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab5_Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C52E6C81DD4EB900086F46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C52E6CD1DD4EB900086F46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		0C52E6D21DD4EB900086F46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C52E6D41DD4EB900086F46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C52E6DB1DD4EC050086F46F /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		0CC67AB21DDAB7FC00FF98CB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0CC67AB41DDABD2900FF98CB /* ProfileImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileImageView.xib; sourceTree = "<group>"; };
+		0CC67AB61DDABE1600FF98CB /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C43C9881DDA5E0500DA43EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C43C9891DDA5E3B00DA43EB /* DraggableImageView.swift */,
+				0CC67AB61DDABE1600FF98CB /* ProfileImageView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0C52E6BC1DD4EB900086F46F = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +73,12 @@
 		0C52E6C71DD4EB900086F46F /* Lab5_Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				0C43C9881DDA5E0500DA43EB /* Views */,
 				0C52E6DA1DD4EBE60086F46F /* ViewControllers */,
 				0C52E6C81DD4EB900086F46F /* AppDelegate.swift */,
 				0C52E6CC1DD4EB900086F46F /* Main.storyboard */,
+				0C43C9861DDA526800DA43EB /* DraggableImageView.xib */,
+				0CC67AB41DDABD2900FF98CB /* ProfileImageView.xib */,
 				0C52E6CF1DD4EB900086F46F /* Assets.xcassets */,
 				0C52E6D11DD4EB900086F46F /* LaunchScreen.storyboard */,
 				0C52E6D41DD4EB900086F46F /* Info.plist */,
@@ -68,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0C52E6DB1DD4EC050086F46F /* CardsViewController.swift */,
+				0CC67AB21DDAB7FC00FF98CB /* ProfileViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -132,8 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC67AB51DDABD2900FF98CB /* ProfileImageView.xib in Resources */,
 				0C52E6D31DD4EB900086F46F /* LaunchScreen.storyboard in Resources */,
 				0C52E6D01DD4EB900086F46F /* Assets.xcassets in Resources */,
+				0C43C9871DDA526800DA43EB /* DraggableImageView.xib in Resources */,
 				0C52E6CE1DD4EB900086F46F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C52E6DC1DD4EC050086F46F /* CardsViewController.swift in Sources */,
+				0C43C98A1DDA5E3B00DA43EB /* DraggableImageView.swift in Sources */,
+				0CC67AB71DDABE1600FF98CB /* ProfileImageView.swift in Sources */,
+				0CC67AB31DDAB7FC00FF98CB /* ProfileViewController.swift in Sources */,
 				0C52E6C91DD4EB900086F46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +338,7 @@
 				0C52E6D91DD4EB900086F46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
